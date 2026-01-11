@@ -11,4 +11,6 @@ scipy
 tqdm
 soundfile
 phonemizer
-bokeh==1.4.0
+bokeh==3.8.2
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
